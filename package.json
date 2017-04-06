@@ -1,6 +1,6 @@
 {
   "name": "electron-windows-autoupdate",
-  "version": "1.0.0",
+  "version": "5.0.0",
   "description": "Electron Windows auto update example",
   "main": "index.js",
   "scripts": {
@@ -11,10 +11,6 @@
   "build": {
     "squirrelWindows": {
       "remoteReleases": "http://localhost:9000/dist/win1/"
-    },
-    "win": {
-      "certificateFile": "./certs/my_signing_key.pfx",
-      "certificatePassword": ""
     }
   },
   "repository": {
